@@ -13,6 +13,7 @@
           <p><b>Author:</b> {{book.author}}</p>
           <p><b>Genre:</b> {{book.genre.join(', ')}}</p>
           <p [innerHTML]="book.description"></p>
+          <p><b>Price:</b> ${{book.price}}</p>
           <button class="dark-button" mat-raised-button color="primary" (click)="onBookBuy()">Buy</button>
         </div>
       </div>

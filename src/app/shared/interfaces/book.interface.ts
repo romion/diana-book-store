@@ -7,4 +7,5 @@ export interface Book {
   id: number;
   genre: string[];
   description?: string;
+  price: number;
 }
