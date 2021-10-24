@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "github-deploy": "git@github.com:romion/diana-book-store.git"
+    "github-deploy": "ng build --prod --baseHref=\"https://romion.github.io/diana-book-store/\""
   },
   "private": true,
   "dependencies": {
