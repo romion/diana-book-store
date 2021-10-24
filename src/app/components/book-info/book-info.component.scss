@@ -1,0 +1,18 @@
+.book-info-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.book-picture {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.book-description {
+  width: 100%;
+}
+
+.dark-button {
+  background-color: #000;
+}

@@ -1,0 +1,6 @@
+<div class="topmenu">
+  <span class="site-header"><a [routerLink]="'/'" routerLinkActive="active">Book Store</a></span>
+  <span class="search" *ngIf="isSearch">
+    <input matInput type="text" [(ngModel)]="searchText" (keyup)="onSearchPush()">
+  </span>
+</div>

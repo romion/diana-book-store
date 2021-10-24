@@ -1,0 +1,10 @@
+<img *ngIf="book.picture" [src]="book.picture" alt="">
+<img *ngIf="!book.picture" [src]="noPictureUrl" alt="">
+<div class="book-info">
+  <h1><a [routerLink]="'/book/' + book.id" routerLinkActive="active">{{book.name}}</a></h1>
+  <p>
+    <span class="bestseller" *ngIf="book.isBestseller"> BESTSELLER </span> <br>
+    <b>Author:</b> {{book.author}}<br>
+    <b>Pages:</b> {{book.pages}}
+  </p>
+</div>

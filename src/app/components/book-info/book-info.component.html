@@ -1,0 +1,25 @@
+<div class="app-wrapper">
+  <app-top-menu></app-top-menu>
+
+  <div class="content">
+    <div *ngIf="book">
+      <div class="book-info-wrapper">
+        <div class="book-picture">
+          <img *ngIf="book.picture" [src]="book.picture" alt="" width="250">
+          <img *ngIf="!book.picture" [src]="noPictureUrl" alt="">
+        </div>
+        <div class="book-description">
+          <h1>{{book.name}}</h1>
+          <p><b>Author:</b> {{book.author}}</p>
+          <p><b>Genre:</b> {{book.genre.join(', ')}}</p>
+          <p [innerHTML]="book.description"></p>
+          <button class="dark-button" mat-raised-button color="primary" (click)="onBookBuy()">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="!book">
+      Book is not found
+    </div>
+  </div>
+</div>

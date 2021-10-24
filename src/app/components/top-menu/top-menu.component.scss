@@ -1,0 +1,41 @@
+.topmenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+
+  .site-header {
+    font-size: 28px;
+    padding: 15px;
+
+    a {
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.search {
+  font-weight: normal;
+  font-size: 14px;
+  padding: 13px;
+
+  input {
+    background: #ccc;
+    border: 0;
+    border-radius: 10px;
+    height: 26px;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

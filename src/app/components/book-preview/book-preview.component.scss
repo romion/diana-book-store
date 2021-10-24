@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  width: 400px;
+  height: 100%;
+  border: 1px #ccc solid;
+  margin: 10px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 100, 100, .2);
+
+  img {
+    width: 150px;
+    margin-right: 20px;
+    border-right: 1px #ccc solid;
+  }
+}
+
+.book-info {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+
+  h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+}
+
+.bestseller {
+  color: crimson;
+  font-weight: bold;
+}
