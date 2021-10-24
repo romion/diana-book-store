@@ -23,13 +23,7 @@ export class BookService {
       pages: 1400,
       genre: ['fantasy'],
       picture: 'https://images-na.ssl-images-amazon.com/images/I/91MLxKW-oGL.jpg',
-      description:'<p>Don&rsquo;t miss the latest book from the author of Eragon: The Fork, the Witch, and the Worm: Tales from Alaga&euml;sia!</p>\n' +
-        '\n' +
-        '<p>Perfect for fans of Lord of the Rings, the New York Times best-selling Inheritance Cycle about the dragon rider Eragon has sold more than 35 million copies and is an international fantasy sensation.</p>\n' +
-        '\n' +
-        '<p>Fifteen-year-old Eragon believes he is merely a poor farm boy - until his destiny as a Dragon Rider is revealed. Gifted with only an ancient sword, a loyal dragon, and sage advice from an old storyteller, Eragon is soon swept into a dangerous tapestry of magic, glory, and power. Now, his choices could save - or destroy - the empire.</p>\n' +
-        '\n' +
-        '<p>&ldquo;An authentic work of great talent.&rdquo; (The New York Times Book Review)</p>'
+      description:'<p>Don&rsquo;t miss the latest book from the author of Eragon: The Fork, the Witch, and the Worm: Tales from Alaga&euml;sia!</p>\n' + '\n' + '<p>Perfect for fans of Lord of the Rings, the New York Times best-selling Inheritance Cycle about the dragon rider Eragon has sold more than 35 million copies and is an international fantasy sensation.</p>\n' + '\n' + '<p>Fifteen-year-old Eragon believes he is merely a poor farm boy - until his destiny as a Dragon Rider is revealed. Gifted with only an ancient sword, a loyal dragon, and sage advice from an old storyteller, Eragon is soon swept into a dangerous tapestry of magic, glory, and power. Now, his choices could save - or destroy - the empire.</p>\n' + '\n' + '<p>&ldquo;An authentic work of great talent.&rdquo; (The New York Times Book Review)</p>'
     },
     {
       id: 3,
@@ -43,20 +37,23 @@ export class BookService {
     },
     {
       id: 4,
-      name: 'The Chronicles of Narnia',
+      name: 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe',
       isBestseller: true,
       author: 'C. S. Lewis',
       pages: 912,
       genre:['fantasy', 'child book'],
-      picture: 'https://m.media-amazon.com/images/M/MV5BMTc0NTUwMTU5OV5BMl5BanBnXkFtZTcwNjAwNzQzMw@@._V1_.jpg'
+      picture: 'https://m.media-amazon.com/images/M/MV5BMTc0NTUwMTU5OV5BMl5BanBnXkFtZTcwNjAwNzQzMw@@._V1_.jpg',
+      description:'<p>Four adventurous siblings&mdash;Peter, Susan, Edmund, and Lucy Pevensie&mdash;step through a wardrobe door and into the land of Narnia, a land frozen in eternal winter and enslaved by the power of the White Witch. But when almost all hope is lost, the return of the Great Lion, Aslan, signals a great change . . . and a great sacrifice.</p><p>Open the door and enter a new world! The Lion, the Witch and the Wardrobe is the second book in C. S. Lewis\'s classic fantasy series, which has been captivating readers of all ages with a magical land and unforgettable characters for over sixty years.</p><p>This is a stand-alone read, but if you would like to discover more about Narnia, pick up The Horse and His Boy, the third book in The Chronicles of Narnia.</p>'
     },
     {
       id: 5,
-      name: 'Matrix',
-      author: 'Sisters Wachowski',
+      name: 'Cat\'s Cradle',
+      author: 'Kurt Vonnegut',
       pages: 1324,
-      genre: ['fantastic', 'action', 'postapocalypse'],
-      picture: 'https://pics.me.me/entering-the-matrix-69374486.png' },
+      genre: ['satire', 'science fiction'],
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Cat%27s_Cradle_%281st_ed._cover%29_-_Vonnegut.jpg',
+      description: '<p>&ldquo;A free-wheeling vehicle . . . an unforgettable ride!&rdquo;&mdash;The New York Times</p><p>Cat&rsquo;s Cradle is Kurt Vonnegut&rsquo;s satirical commentary on modern man and his madness. An apocalyptic tale of this planet&rsquo;s ultimate fate, it features a midget as the protagonist, a complete, original theology created by a calypso singer, and a vision of the future that is at once blackly fatalistic and hilariously funny. A book that left an indelible mark on an entire generation of readers, Cat&rsquo;s Cradle is one of the twentieth century&rsquo;s most important works&mdash;and Vonnegut at his very best.</p><p>&ldquo;[Vonnegut is] an unimitative and inimitable social satirist.&rdquo;&mdash;Harper&rsquo;s Magazine</p><p>&ldquo;Our finest black-humorist . . . We laugh in self-defense.&rdquo;&mdash;Atlantic Monthly</p>'
+    }
   ];
   noPictureUrl = 'https://st3.depositphotos.com/23594922/31822/v/600/depositphotos_318221368-stock-illustration-missing-picture-page-for-website.jpg';
 
