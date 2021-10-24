@@ -38,7 +38,8 @@ export class BookService {
       author: 'J. R. R. Tolkien',
       pages: 300,
       genre:['fantasy'],
-      picture: 'https://www.vokrug.tv/pic/product/f/0/4/d/f04d9b65a3d941da3c9fd5ab247d0c9d.jpeg'
+      picture: 'https://www.vokrug.tv/pic/product/f/0/4/d/f04d9b65a3d941da3c9fd5ab247d0c9d.jpeg',
+      description: '<p>A great modern classic and the prelude to The Lord of the Rings.   Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.</p><p>&ldquo;A glorious account of a magnificent adventure, filled with suspense and seasoned with a quiet humor that is irresistible . . . All those, young or old, who love a fine adventurous tale, beautifully told, will take The Hobbit to their hearts.&rdquo; &ndash; New York Times Book Review</p>'
     },
     {
       id: 4,
