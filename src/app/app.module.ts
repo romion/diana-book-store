@@ -16,6 +16,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from '@angular/material/button';
 import { BasketButtonComponent } from './shared/components/basket-button/basket-button.component';
 import {MatBadgeModule} from '@angular/material/badge';
+import { BasketPageComponent } from './components/basket-page/basket-page.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     TopMenuComponent,
     FooterComponent,
     BookPreviewComponent,
-    BasketButtonComponent
+    BasketButtonComponent,
+    BasketPageComponent
   ],
   imports: [
     BrowserModule,

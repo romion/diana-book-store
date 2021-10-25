@@ -17,7 +17,6 @@ export class BasketButtonComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.basketListener$ = this.shoppingService.listenBasketChanges().subscribe((res: Book[]) => {
       this.shoppingCount = res.length;
-      console.log(res);
     })
   }
 
