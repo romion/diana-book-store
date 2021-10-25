@@ -17,6 +17,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { BasketButtonComponent } from './shared/components/basket-button/basket-button.component';
 import {MatBadgeModule} from '@angular/material/badge';
 import { BasketPageComponent } from './components/basket-page/basket-page.component';
+import {MatTableModule} from '@angular/material/table';
+
 
 
 @NgModule({
@@ -39,7 +41,8 @@ import { BasketPageComponent } from './components/basket-page/basket-page.compon
     MatInputModule,
     MatIconModule,
     MatButtonModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatTableModule
   ],
   providers: [
     BookService

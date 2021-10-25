@@ -9,3 +9,7 @@ export interface Book {
   description?: string;
   price: number;
 }
+
+export interface CashedBooks {
+  [key: number]: number;
+}
